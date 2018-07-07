@@ -1,3 +1,4 @@
+/* Finds the top sellers by purchase price for the past year */
 SELECT B.brand_name, SUM(CO.purchase_price)
 FROM Customer_Ownership as CO
   LEFT OUTER JOIN Car_Vins as CV on (CO.vin = CV.vin)

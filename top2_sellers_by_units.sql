@@ -1,3 +1,4 @@
+/* Finds the top sellers by units sold for the past year */
 SELECT B.brand_name, COUNT(B.brand_name)
 FROM Customer_Ownership as CO
   LEFT OUTER JOIN Car_Vins as CV on (CO.vin = CV.vin)
