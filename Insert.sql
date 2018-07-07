@@ -45,7 +45,7 @@ INSERT INTO Manufacture_Plant(plant_name, plant_type, plant_location, company_ow
 INSERT INTO Manufacture_Plant(plant_name, plant_type, plant_location, company_owned) Values("Scranton Branch", "Parts", "USA",0);
 INSERT INTO Car_Parts(part_name, manufacture_plant_id, manufacture_start_date, manufacture_end_date) Values ('2.6L Engine', 1, '2012-08-12', '2013-08-12');
 INSERT INTO Car_Parts(part_name, manufacture_plant_id, manufacture_start_date, manufacture_end_date, part_recall) Values ('3.0L Engine', 2, '2012-07-10', '2017-02-20', 0);
-INSERT INTO Car_Parts(part_name, manufacture_plant_id, manufacture_start_date, manufacture_end_date, part_recall) Values ('2.4L Engine', 5, '2012-08-12', '2013-08-12', 1);
+INSERT INTO Car_Parts(part_name, manufacture_plant_id, manufacture_start_date, manufacture_end_date, part_recall) Values ('2.4L Engine', 5, '2012-08-12', '2013-08-12', 0);
 INSERT INTO Car_Parts(part_name, manufacture_plant_id, manufacture_start_date, manufacture_end_date, part_recall) Values ('Jetrag 6 Speed', 5, '2012-02-11', '2013-08-12', 0);
 INSERT INTO Car_Parts(part_name, manufacture_plant_id, manufacture_start_date, manufacture_end_date, part_recall) Values ('Bose Audio', 1, '2014-08-02', '2015-03-12', 0);
 INSERT INTO Car_Parts(part_name, manufacture_plant_id, manufacture_start_date, manufacture_end_date, part_recall) Values ('4WD Chassis', 2, '2000-08-29', '2017-05-12', 0);
