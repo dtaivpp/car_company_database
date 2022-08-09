@@ -68,7 +68,7 @@ Create Table Customer_Ownership(
   dealer_id INTEGER NOT NULL,
   FOREIGN KEY (customer_id) REFERENCES Customers(customer_id),
   FOREIGN KEY (vin) REFERENCES Car_Vins(vin),
-  FOREIGN KEY (dealer_id) REFERENCES Dealers(dealer_id)
+  FOREIGN KEY (dealer_id) REFERENCES Dealers(dealer_id),
   PRIMARY KEY (customer_id, vin)
 );
 
